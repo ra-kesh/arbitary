@@ -1,0 +1,90 @@
+@media screen and (min-width: 800px){
+
+    aside {
+        border-right: 1px solid var(--less-light-border);
+        margin-right: 2rem;
+        /* margin-top: 1rem; */
+        padding: .5rem;
+        flex: 0;
+        background: #ffffff;
+        z-index: 2;
+        position: static;
+    }
+    
+   
+    .margin {
+		margin-left: 250px;
+	}
+
+    iframe{
+        margin-top: 2rem;
+    }
+    
+}
+
+.bordered-div{
+    border: 1px solid var(--less-light-border);
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+
+.content-wrapper{
+    border: 1px solid rgb(53, 20, 20);
+    max-width: 20vw;
+}
+
+
+.heading-hero{
+    color: var(--primary-black);
+    /* font-family: 'Proza Libre', sans-serif; */
+
+}
+
+aside h1{
+    font-size: 2rem;
+}
+
+
+aside ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    cursor: pointer;
+}
+
+aside li{
+  line-height: 2.3rem;
+  font-size: 1.1rem;
+  /* padding: 0 0 0 .5rem; */
+  
+  /* padding: 0 1rem; */
+  /* border: 1px solid var(--light-border); */
+}
+
+aside li a {
+    color : var(--primary-black)
+}
+aside li a:hover {
+  text-decoration: none;
+  
+}
+
+.li-active{
+    color: var(--primary-blue);
+    font-weight: 600;
+  
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+}
+
+/* .example {
+	margin-bottom: .5rem;
+	padding-top: .25rem;
+	padding-bottom: .25rem;
+	border: 1px solid #0366ee;
+	font-weight: 400;
+} */
