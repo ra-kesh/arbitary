@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css"/>
+    <script src="https://use.fontawesome.com/434cabe7d8.js"></script>
+   
+</head>
+<body>
+    <header>
+        <div class="container-full align-center text-center ">                
+            <div class="container-sm">
+                <h1 class="heading-hero">
+                    arbiTary
+                </h1>
+                <p class="sub-heading">Arbitary is a minimalist component library that provides helpful, browser-consistent styling for your Html elements</p>
+                <div>
+                    <a href="#arbitary"><button class="button-outline">Documentation</button></a>
+                    <button class="button-long">Download</button>
+                </div>
+            </div>
+        </div>
+    </header>
+  
+    <section id="arbitary">
+        <div class="container-full">
+            <aside >
+                <div class="container-sm ">
+
+                    <h1 >ARBITARY</h1>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#avatar"> Avatars</a>
+                            </li>
+                            <li>
+                                <a href="#alert">Alerts</a>
+                            </li>
+                            <li>
+                                <a href="#badge">Badges</a>
+                            </li>
+                            <li>
+                                <a href="#buttons">Buttons</a>
+                            </li>
+                            <li>
+                                <a href="#card">Cards</a>
+                            </li>
+                            <li>
+                                <a href="#form">Forms</a>
+                            </li>
+
+                            <li>
+                                <a href="#image">Images</a>
+                            </li>
+                            <li>
+                                <a href="#lists">Lists</a>
+                            </li>
+                            <li>
+                                <a href="#modal">Modal</a>
+                            </li>
+                            <li>
+                                <a href="#navigation">Navigation</a>
+                            </li>
+                            <li>Rating</li>
+                            <li>Slider</li>
+                            <li>
+                                <a href="#flexGrid">Simpliefied Grid</a>
+                            </li>
+                            <li>
+                                <a href="#typography">Typography</a>
+                            </li>
+                            <li>
+                                <a href="#toast">Toast</a>
+                            </li>
+                            
+                           
+                        </ul>
+                    </nav>
+                </div>
+
+            </aside>
+            <main class="content">
+                <div >
+                    <section id="avatar">
+                        
+                        <h1>Avatars</h1>
+                        <p>
+                            The avatar component can be consist of profile image along with additional elements 
+                            (e.g., a status element) to provide info about a user.
+                        </p>
+                       
+                        <article>
+                            <div class="m-bottom-two">
+                                <h3>Letter avatars</h3>
+                                <p>Avatars containing simple characters according to user name.</p>
+                            </div>
+
+                            <div class="flex-row align-center m-top ">
+                                <div class="avatar primary m-right">RK</div>
+                                <div class="avatar secondary m-right">TP</div>
+                                <div class="avatar warning">CG</div>
+                            </div>
+                            <iframe 
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520primary%2522%253ERK%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520secondary%2522%253ETP%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520warning%2522%253ECG%253C%252Fdiv%253E%2520%2520"
+                                style="width: 680px; height: 128px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </article>
+
+                        <article>
+                            <div class="m-bottom-two">
+                                <h3>Image avatars</h3>
+                                <p>Avatars containing user specified images</p>
+                            </div>
+
+                            <div class="flex-row align-center m-top ">
+                                <div class="avatar m-right">
+                                    <img src="https://pbs.twimg.com/profile_images/1238749114348662784/p9hc5fuP_400x400.jpg" alt="" srcset="" class="avatar-img">
+                                </div>
+                                <div class="avatar m-right">
+                                    <img src="https://pbs.twimg.com/profile_images/1344921031048216577/3LG5XHE5_400x400.jpg" alt="" srcset="" class="avatar-img">
+                                </div>
+                                <div class="avatar m-right">
+                                    <img src="https://pbs.twimg.com/profile_images/1231443785567080448/fUhpGqPc_400x400.jpg" alt="" srcset="" class="avatar-img">
+                                </div>
+
+                            </div>
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpbs.twimg.com%252Fprofile_images%252F1238749114348662784%252Fp9hc5fuP_400x400.jpg%2522%250A%2520%2520class%253D%2522avatar-img%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpbs.twimg.com%252Fprofile_images%252F1344921031048216577%252F3LG5XHE5_400x400.jpg%2522%250A%2520%2520class%253D%2522avatar-img%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpbs.twimg.com%252Fprofile_images%252F1231443785567080448%252FfUhpGqPc_400x400.jpg%2522%250A%2520%2520class%253D%2522avatar-img%2522%253E%250A%253C%252Fdiv%253E"
+                                style="width: 797px; height: 290px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </article>
+                        <article>
+                            <div class="m-bottom-two">
+                                <h3>Sizes</h3>
+                                <p>Avatars of different size</p>
+                            </div>
+
+                            <div class="flex-row align-center m-top m-bottom">
+                                <div class="avatar m-right-two">
+                                    <img src="https://pbs.twimg.com/profile_images/1238749114348662784/p9hc5fuP_400x400.jpg" alt="" srcset="" class="avatar-img">
+                                </div>
+                                <div class="avatar m-right-two">
+                                    <img src="https://pbs.twimg.com/profile_images/1238749114348662784/p9hc5fuP_400x400.jpg" alt="" srcset="" class="avatar-img-md">
+                                </div>
+                                <div class="avatar m-left-two">
+                                    <img src="https://pbs.twimg.com/profile_images/1238749114348662784/p9hc5fuP_400x400.jpg" alt="" srcset="" class="avatar-img-lg">
+                                </div>  
+                            </div>
+
+                            <iframe 
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpbs.twimg.com%252Fprofile_images%252F1238749114348662784%252Fp9hc5fuP_400x400.jpg%2522%250A%2520%2520class%253D%2522avatar-img%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpbs.twimg.com%252Fprofile_images%252F1238749114348662784%252Fp9hc5fuP_400x400.jpg%2522%250A%2520%2520class%253D%2522avatar-img-md%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpbs.twimg.com%252Fprofile_images%252F1238749114348662784%252Fp9hc5fuP_400x400.jpg%2522%250A%2520%2520class%253D%2522avatar-img-lg%2522%253E%250A%253C%252Fdiv%253E"
+                                style="width: 797px; height: 290px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </article>
+                        <article>
+                            <div class="m-bottom-two">
+                                <h3>With badges</h3>
+                                <p>Avatars with badges to convey the status</p>
+                            </div>
+
+                            <div class="flex-row align-center m-top ">
+                                <div class="avatar m-right-two">
+                                    <img src="https://pbs.twimg.com/profile_images/1238749114348662784/p9hc5fuP_400x400.jpg" alt="" srcset="" class="avatar-img">
+                                    <div class="badge-online"></div>
+                                </div>
+                                <div class="avatar m-right-two">
+                                    <img src="https://pbs.twimg.com/profile_images/1238749114348662784/p9hc5fuP_400x400.jpg" alt="" srcset="" class="avatar-img">
+                                    <div class="badge-offline"></div>
+                                </div>       
+                            </div>
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpbs.twimg.com%252Fprofile_images%252F1238749114348662784%252Fp9hc5fuP_400x400.jpg%2522%250A%2520%2520class%253D%2522avatar-img%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-online%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpbs.twimg.com%252Fprofile_images%252F1238749114348662784%252Fp9hc5fuP_400x400.jpg%2522%250A%2520%2520class%253D%2522avatar-img%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-offline%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                                style="width: 797px; height: 272px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </article>
+                  
+                        
+                    </section>
+
+                    <section id="alert">               
+                        <h1>Alerts</h1>
+                        <p>
+                            An alert displays a short, important message in a way that attracts the user's attention without interrupting the user's task.
+                        </p>
+                        <article>
+                            <div class="m-top-two">
+                                <div class="alert alert-primary">
+                                    this is a primary alert
+                                </div>
+                                <div class="alert alert-secondary">
+                                    this is a secondary alert
+                                </div>
+                                <div class="alert alert-success">
+                                    this is a success alert
+                                </div>
+                                <div class="alert alert-danger">
+                                    this is a danger alert
+                                </div>
+                                <div class="alert alert-warning">
+                                    this is a warning alert
+                                </div>
+                            </div>
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%253Ethis%2520is%2520a%2520primary%2520alert%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-secondary%2522%253Ethis%2520is%2520a%2520secondary%2520alert%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253Ethis%2520is%2520a%2520success%2520alert%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253Ethis%2520is%2520a%2520danger%2520alert%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253Ethis%2520is%2520a%2520warning%2520alert%253C%252Fdiv%253E"
+                                style="width: 680px; height: 164px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </article>   
+                    </section>
+
+                    <section id="badge">
+                       
+                        <h1>Badges</h1>
+                        <p>
+                           Badges are used to provide extra information on any content.
+                        </p>
+                        <article>
+                            <div class="m-bottom-two">
+                                <h3>Basic badges</h3>
+                                <!-- <p>Avatars with badges to convey the status</p> -->
+                            </div>
+                            <div class="flex-row align-center ">
+                                <div class="badge-lt primary m-right-two">New</div>
+                                <div class="badge primary m-right-two">New</div>
+                                <div class="badge-rt primary">New</div>
+                            </div>
+                            <iframe 
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-lt%2520primary%2522%253ENew%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2520primary%2522%253ENew%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-rt%2520primary%2522%253ENew%253C%252Fdiv%253E"
+                                style="width: 367px; height: 128px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </article>
+                        <article>
+                            <div class="m-bottom-two">
+                                <h3>Color badges</h3>
+                                <!-- <p>Avatars with badges to convey the status</p> -->
+                            </div>
+                            <div class="flex-row align-center ">
+                                <div class="badge primary m-right-two">primary</div>
+                                <div class="badge secondary m-right-two">secondary</div>
+                                <div class="badge success m-right-two">success</div>
+                                <div class="badge danger m-right-two">error</div>
+                            </div>
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2520primary%2522%253Eprimary%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2520secondary%2522%253Esecondary%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2520success%2522%253Esuccess%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2520danger%2522%253Eerror%253C%252Fdiv%253E"
+                                style="width: 423px; height: 146px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </article>
+
+                        <article>
+                            <div class="m-bottom-two">
+                                <h3>Round and Sqaure badges</h3>
+                                <!-- <p>Avatars with badges to convey the status</p> -->
+                            </div>
+                            <div class="flex-row align-center ">
+                                <div class="badge-round primary m-right-two">31</div>
+                                <div class="badge-sqr secondary m-right-two">31</div>
+                            </div>
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-round%2520primary%2522%253E31%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-sqr%2520secondary%2522%253E31%253C%252Fdiv%253E"
+                                style="width: 384px; height: 110px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </article>
+                       
+                        
+                        
+                    </section>
+
+                    <section id="buttons">
+                        <h1>Buttons</h1>
+                        <p>
+                            Buttons allow users to take actions, and make choices, with a single tap.
+                        </p>
+                        <article>
+                            <div class="m-bottom-two">
+                                <h3>Basic Buttons</h3>
+                                <p>Button elements, links with a button class, and input elements should all render exactly the same.</p>
+                            </div>
+                            <div>
+                                <button>button</button>
+                                <input type="button" value="submit" >
+                                <input type="button" value="reset" >
+                                <a href="" class="button">link</a>
+                            </div>
+                           
+                            <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%253Ebutton%253C%252Fbutton%253E%250A%253Cinput%2520type%253D%2522button%2522%2520value%253D%2522submit%2522%2520%253E%250A%253Cinput%2520type%253D%2522button%2522%2520value%253D%2522reset%2522%2520%253E%250A%253Ca%2520href%253D%2522%2522%2520class%253D%2522button%2522%253Elink%253C%252Fa%253E"
+                            style="width: 680px; height: 146px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                          </iframe>
+                           
+                        </article>
+
+                        <article>
+                            <div class="m-bottom-two">
+                                <h3>Icon Buttons</h3>
+                                <p>Buttons with various icon according to their purpose</p>
+                            </div>
+                            <div>
+                                <button><i class="fa fa-home"></i></button>
+                                <button><i class="fa fa-bars"></i></button>
+                                <button><i class="fa fa-trash"></i></button>
+                                <button><i class="fa fa-close"></i></button>
+                                <button><i class="fa fa-folder"></i></button>  
+                            </div>
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%253E%253Ci%2520class%253D%2522fa%2520fa-home%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%253E%253Ci%2520class%253D%2522fa%2520fa-bars%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%253E%253Ci%2520class%253D%2522fa%2520fa-trash%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%253E%253Ci%2520class%253D%2522fa%2520fa-close%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%253E%253Ci%2520class%253D%2522fa%2520fa-folder%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%2520%2520"
+                                style="width: 680px; height: 164px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                           
+                        </article>
+                        <article>
+                            <div class="m-bottom-two">
+                                <h3>Icon Buttons with text</h3>
+                                <p>Buttons with icon and text specifying their purpose.</p>
+                            </div>
+                            <div>
+                                <button><i class="fa fa-home"></i> Home </button>
+                                <button><i class="fa fa-bars"></i> Menu</button>
+                                <button><i class="fa fa-trash"></i> Delete</button>
+                                <button><i class="fa fa-close"></i> Close</button>
+                                <button><i class="fa fa-folder"></i> Folder</button>    
+                            </div>
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cbutton%253E%253Ci%2520class%253D%2522fa%2520fa-home%2522%253E%253C%252Fi%253E%2520Home%2520%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%253E%253Ci%2520class%253D%2522fa%2520fa-bars%2522%253E%253C%252Fi%253E%2520Menu%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%253E%253Ci%2520class%253D%2522fa%2520fa-trash%2522%253E%253C%252Fi%253E%2520Delete%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%253E%253Ci%2520class%253D%2522fa%2520fa-close%2522%253E%253C%252Fi%253E%2520Close%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%253E%253Ci%2520class%253D%2522fa%2520fa-folder%2522%253E%253C%252Fi%253E%2520Folder%253C%252Fbutton%253E%2520"
+                                style="width: 680px; height: 164px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                            
+                        </article>
+                        <article>
+                            <div class="m-bottom-two">
+                                <h3>Round buttons</h3>
+                                <p>Buttons with round edges for styling purpose</p>
+                            </div>
+                            <div>
+                                <button class="button-rnd">button</button>
+                                <input type="button" value="submit"class="button-rnd" >
+                                <input type="button" value="reset" class="button-rnd">
+                                <a href="" class="button button-rnd">link</a>   
+                            </div>
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cbutton%2520class%253D%2522button-rnd%2522%253Ebutton%253C%252Fbutton%253E%250A%2520%253Cinput%2520type%253D%2522button%2522%2520value%253D%2522submit%2522class%253D%2522button-rnd%2522%2520%253E%250A%2520%253Cinput%2520type%253D%2522button%2522%2520value%253D%2522reset%2522%2520class%253D%2522button-rnd%2522%253E%250A%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522button%2520button-rnd%2522%253Elink%253C%252Fa%253E%2520%2520%2520%2520"
+                                style="width: 680px; height: 146px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                            
+                        </article>
+                        <article>
+                            <div class="m-bottom-two">
+                                <h3>Square buttons</h3>
+                                <p>Buttons with sqaure edges for styling purpose</p>
+                            </div>
+                            <div>
+                                <button class="button-sqr">button</button>
+                                <input type="button" value="submit"class="button-sqr" >
+                                <input type="button" value="reset" class="button-sqr">
+                                <a href="" class="button button-sqr">link</a>
+                            </div>
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button-sqr%2522%253Ebutton%253C%252Fbutton%253E%250A%253Cinput%2520type%253D%2522button%2522%2520value%253D%2522submit%2522class%253D%2522button-sqr%2522%2520%253E%250A%253Cinput%2520type%253D%2522button%2522%2520value%253D%2522reset%2522%2520class%253D%2522button-sqr%2522%253E%250A%253Ca%2520href%253D%2522%2522%2520class%253D%2522button%2520button-sqr%2522%253Elink%253C%252Fa%253E%2520%2520"
+                                style="width: 680px; height: 146px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                           
+                        </article>
+                        <article>
+                            <div class="m-bottom-two">
+                                <h3>Colored buttons</h3>
+                                <p>Buttons with different colors for specifying different purposes.</p>
+                            </div>
+                            <div>
+                                <button class="button-secondary">secondary</button>
+                                <button class="button-success">success</button>
+                                <button class="button-danger">danger</button>
+                                <button class="button-warning">warning</button>
+                                <button class="button-light">light</button>
+                                <button class="button-dark">danger</button>
+                            </div>
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button-secondary%2522%253Esecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button-success%2522%253Esuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button-danger%2522%253Edanger%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button-warning%2522%253Ewarning%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button-light%2522%253Elight%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button-dark%2522%253Edanger%253C%252Fbutton%253E%2520"
+                                style="width: 680px; height: 182px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                                
+                        </article>
+                        <article>
+                            <div class="m-bottom-two">
+                                <h3>Outlined buttons</h3>
+                                <p>Buttons with different colored outlines for specifying different purposes and style.</p>
+                            </div>
+                            <div>
+                                <button class="button-outline-secondary">secondary</button>
+                                <button class="button-outline-success">success</button>
+                                <button class="button-outline-danger">danger</button>
+                                <button class="button-outline-warning">warning</button>
+                                <button class="button-outline-light">light</button>
+                                <button class="button-outline-dark">danger</button>
+                            </div>
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cbutton%2520class%253D%2522button-outline-secondary%2522%253Esecondary%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522button-outline-success%2522%253Esuccess%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522button-outline-danger%2522%253Edanger%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522button-outline-warning%2522%253Ewarning%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522button-outline-light%2522%253Elight%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522button-outline-dark%2522%253Edanger%253C%252Fbutton%253E"
+                                style="width: 680px; height: 182px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </article>
+                        <article>
+                            <div class="m-bottom-two">
+                                <h3>Large buttons</h3>
+                                <p>Oversized buttons for specific scenarios</p>
+                            </div>
+                            <div>
+                                <button class="button-lg">Buy Now</button>
+                                <button class="button-lg">Add To Cart</button>
+                            </div>
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button-lg%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button-lg%2522%253EAdd%2520To%2520Cart%253C%252Fbutton%253E"
+                                style="width: 680px; height: 110px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </article>
+                        <article>
+                            <div class="m-bottom-two">
+                                <h3>Full width buttons</h3>
+                                <p>Buttons that covers full width of viewport</p>
+                            </div>
+                            <div>
+                                <button class="button-full button-rnd m-bottom">full buttons</button>
+                                <button class="button-full button-sqr m-bottom"> full buttons</button>
+                                <button class="button-full button-outline m-bottom"> full buttons</button>
+                            </div>
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button-full%2520button-rnd%2522%253Efull%2520buttons%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button-full%2520button-sqr%2522%253E%2520full%2520buttons%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button-full%2520button-outline%2522%253E%2520full%2520buttons%253C%252Fbutton%253E"
+                                style="width: 680px; height: 128px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>           
+                        </article>          
+                    </section>
+
+                    <section id="card">
+                        <h1>Cards</h1>
+                        <p>
+                            A card is a flexible and extensible content container which includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options.
+                        </p>                   
+                        <article>
+                            <div class="m-bottom-two">
+                                <h3>Vertical Cards</h3>
+                                <!-- <p>Button elements, links with a button class, and input elements should all render exactly the same.</p> -->
+                            </div>
+                            <div class="flex-row">
+                                <div class="card card-sm vt m-right-two">
+                                    <div class="card-sm-img">
+                                        <img src="https://picsum.photos/300" alt="" class="card-img-vt">
+                                    </div>
+                                    <div class="card-sm-body">
+                                        <h2>Title</h2>
+                                        <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+                                    </div>
+                                   
+                                </div>
+
+                                <div class="card card-sm vt">
+                                    <div class="card-sm-img">
+                                        <img src="https://picsum.photos/300" alt="" class="card-img-vt">
+                                    </div>
+                                    <div class="card-sm-body">
+                                        <h2>Title</h2>
+                                        <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+                                    </div>
+                                    <div class="badge-rt primary card-badge">New</div>
+                                   
+                                </div>
+                            </div>     
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522card%2520card-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-sm-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F300%2522%2520alt%253D%2522%2522%2520class%253D%2522card-img-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-sm-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ETitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ENeque%2520porro%2520quisquam%2520est%2520qui%2520dolorem%2520ipsum%2520quia%2520dolor%2520sit%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520amet%252C%2520consectetur%252C%2520adipisci%2520velit...%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%253Cdiv%2520class%253D%2522card%2520card-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-sm-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F300%2522%2520alt%253D%2522%2522%2520class%253D%2522card-img-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-sm-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ETitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ENeque%2520porro%2520quisquam%2520est%2520qui%2520dolorem%2520ipsum%2520quia%2520dolor%2520sit%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520amet%252C%2520consectetur%252C%2520adipisci%2520velit...%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522badge-rt%2520primary%2520card-badge%2522%253ENew%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520"
+                                style="width: 680px; height: 488px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </article>
+
+                        <article>
+                            <div class="m-bottom-two">
+                                <h3>Horizontal Cards</h3>
+                                <!-- <p>Button elements, links with a button class, and input elements should all render exactly the same.</p> -->
+                            </div>
+                            <div class="card ht">
+                                <div class="card-sm-img">
+                                    <img src="https://picsum.photos/300" alt="" class="card-img-ht">
+                                </div>
+                                <div class="card-sm-body">
+                                    <h3 class="m-bottom">Title</h3>
+                                    <p class="m-bottom-two">
+                                        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet<br>
+                                        consectetur, adipisci velit...
+                                    </p>
+                                    <button>button</button>
+                                </div>
+                            </div>
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520ht%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-sm-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F300%2522%2520alt%253D%2522%2522%2520class%253D%2522card-img-ht%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-sm-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522m-bottom%2522%253ETitle%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522m-bottom-two%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Neque%2520porro%2520quisquam%2520est%2520qui%2520dolorem%2520ipsum%2520quia%2520dolor%2520sit%2520amet%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520consectetur%252C%2520adipisci%2520velit...%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%253Ebutton%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                style="width: 679px; height: 308px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </article>
+                    </section>
+                    <section id="form">
+                        <h1>Forms</h1>
+                        <p>
+                            Forms consist of various inputs and lables according to requirement for data submission .
+                        </p>
+                        <article>
+                                <form>
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" placeholder="First Name">
+                                    <label for="choose">Select</label>
+                                    <select id="choose">
+                                    <option disabled selected>Please select</option>
+                                    <option value="option-1">Option 1</option>
+                                    <option value="option-2">Option 2</option>
+                                    </select>
+                                    <label for="comments">Additional Comments</label>
+                                    <textarea id="comments"></textarea>
+                                    <label>
+                                    <input type="checkbox">
+                                    Remember me
+                                    </label>
+                                    <input type="submit" value="Submit">
+                                </form>
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cform%253E%250A%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%253EName%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520id%253D%2522name%2522%2520placeholder%253D%2522First%2520Name%2522%253E%250A%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522choose%2522%253ESelect%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%253Cselect%2520id%253D%2522choose%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520disabled%2520selected%253EPlease%2520select%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522option-1%2522%253EOption%25201%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522option-2%2522%253EOption%25202%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%253C%252Fselect%253E%250A%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522comments%2522%253EAdditional%2520Comments%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%253Ctextarea%2520id%253D%2522comments%2522%253E%253C%252Ftextarea%253E%250A%2520%2520%2520%2520%2520%253Clabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Remember%2520me%250A%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522submit%2522%2520value%253D%2522Submit%2522%253E%250A%2520%253C%252Fform%253E"
+                                    style="width: 680px; height: 380px; border:0; transform: scale(1); overflow:hidden;"
+                                    sandbox="allow-scripts allow-same-origin">
+                                </iframe>
+                        </article>
+                        
+                        
+                    </section>
+
+                    <section id="image">
+
+                        <h1>Images</h1>
+
+                        <p>Mostly two types of images you are going to need </p>
+                       
+                        <article>
+                            <div class="flex-row">
+                                <div class="m-right-two">
+                                    <h3>Responsive Images</h3>
+                                    <img src="https://picsum.photos/500/300" alt=""class="img-responsive">
+                                </div>
+                                <div class="m-left-two" >
+                                    <h3>Round Images</h3>
+                                    <img src="https://picsum.photos/300" alt=""class="img-round">
+                                </div>
+                            </div>
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F500%252F300%2522%2520alt%253D%2522%2522class%253D%2522img-responsive%2522%253E%250A%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F300%2522%2520alt%253D%2522%2522class%253D%2522img-round%2522%253E"
+                                style="width: 635px; height: 110px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </article>                       
+                    </section>
+
+
+                    <section id="lists">    
+                        <h1>Lists</h1>     
+                        <p>Lists are continuous, vertical indexes of text or images.</p>      
+                        <article>
+                            <div class="m-bottom-two">
+                                <h3>Unordered lists</h3>
+                                <!-- <p>Button elements, links with a button class, and input elements should all render exactly the same.</p> -->
+                            </div>
+                            <ul>
+                                <li>List item one
+                                    <ul>
+                                        <li>Nested list item</li>
+                                    </ul>
+                                </li>
+                                <li>List item two</li>
+                                <li>List item three</li>
+                            </ul>
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%253E%250A%2520%2520%2520%2520%253Cli%253EList%2520item%2520one%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ENested%2520list%2520item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EList%2520item%2520two%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EList%2520item%2520three%253C%252Fli%253E%250A%253C%252Ful%253E"
+                                style="width: 680px; height: 236px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                            
+                        </article>   
+                        <article>
+                            <h3>Ordered Lists</h3>
+                            <ol>
+                                <li>List item one
+                                    <ol>
+                                        <li>Nested list item</li>
+                                    </ol>
+                                </li>
+                                <li>List item two</li>
+                                <li>List item three</li>
+                            </ol>
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Col%253E%250A%2520%2520%253Cli%253EList%2520item%2520one%250A%2520%2520%2520%2520%2520%2520%253Col%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ENested%2520list%2520item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item%2520two%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item%2520three%253C%252Fli%253E%250A%253C%252Fol%253E"
+                                style="width: 680px; height: 236px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </article>   
+                        <article>
+                            <h3>Definition Lists</h3>
+                            <dl>
+                                <dt>Definition Title One</dt>
+                                <dd>First definition description</dd>
+                                <dt>Definition Title Two</dt>
+                                <dd>First definition description</dd>
+                            </dl>
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdt%253EDefinition%2520Title%2520One%253C%252Fdt%253E%250A%253Cdd%253EFirst%2520definition%2520description%253C%252Fdd%253E%250A%253Cdt%253EDefinition%2520Title%2520Two%253C%252Fdt%253E%250A%253Cdd%253EFirst%2520definition%2520description%253C%252Fdd%253E"
+                                style="width: 680px; height: 146px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </article>   
+                      
+                    </section>
+
+                    <section id="modal">
+                        <h1>Modals</h1>
+                        <p>
+                            The modal component provides a solid foundation for creating dialogs, popovers, lightboxes, or whatever else.
+                        </p>
+                        <article>
+                           
+                            <div class="modal">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h4 class="modal-title">Modal title</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                      <p>Modal body text goes here.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button class="m-right button-secondary">Close</button>
+                                      <button >Save </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522modal-title%2522%253EModal%2520title%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EModal%2520body%2520text%2520goes%2520here.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522m-right%2520button-secondary%2522%253EClose%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520%253ESave%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%2520%2520"
+                            style="width: 651px; height: 326px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                          </iframe>
+                         
+                            
+                        </article>  
+                    </section>
+
+                    <section id="navigation">
+                        <h1>Navbar</h1>
+                        <p>
+                            Navbar displays information and actions relating to the current screen.
+                        </p>
+                        <article>
+                            <div class="m-bottom-two">
+                                <h3>Default Navbar</h3>
+                                <!-- <p>Button elements, links with a button class, and input elements should all render exactly the same.</p> -->
+                            </div>
+                            <div class="bordered-div">
+                                <nav class="navbar">
+                                    <div class="nav-brand">
+                                        <span><a href="/">arbiTary</a></span>
+                                    </div>
+                                    <ul >
+                                        <li><a class="links active" href="/">home</a></li>
+                                        <li><a class="links" href="">projects</a></li>
+                                        <li><a class="links" href="">blogs</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navbar%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522nav-brand%2522%253E%250A%2520%2520%2520%2520%2520%253Cspan%253E%253Ca%2520href%253D%2522%252F%2522%253EarbiTary%253C%252Fa%253E%253C%252Fspan%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cul%2520%253E%250A%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520class%253D%2522links%2520active%2522%2520href%253D%2522%252F%2522%253Ehome%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520class%253D%2522links%2522%2520href%253D%2522%2522%253Eprojects%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520class%253D%2522links%2522%2520href%253D%2522%2522%253Eblogs%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fnav%253E"
+                            style="width: 680px; height: 254px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                           
+                        </article>  
+                        <article>
+                            <div class="m-bottom-two">
+                                <h3>Navbar with CTA</h3>
+                            </div>
+                            <div class="bordered-div">
+                                <nav class="navbar">
+                                    <div class="nav-brand">
+                                        <span><a href="/">arbiTary</a></span>
+                                    </div>
+                                    <ul >
+                                        <li><a class="links active" href="/">home</a></li>
+                                        <li><a class="links" href="">projects</a></li>
+                                        <li><a class="links" href="">blogs</a></li>
+                                    </ul>
+                                    <button>Download</button>
+                                </nav>
+                            </div>
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navbar%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522nav-brand%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ca%2520href%253D%2522%252F%2522%253EarbiTary%253C%252Fa%253E%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cul%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520class%253D%2522links%2520active%2522%2520href%253D%2522%252F%2522%253Ehome%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520class%253D%2522links%2522%2520href%253D%2522%2522%253Eprojects%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520class%253D%2522links%2522%2520href%253D%2522%2522%253Eblogs%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%2520%2520%253Cbutton%253EDownload%253C%252Fbutton%253E%250A%253C%252Fnav%253E"
+                                style="width: 575px; height: 272px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </article>  
+                        
+                    </section>
+
+                    <section id="flexGrid">
+                        <h1>Simpliefied Grid</h1>
+                        <p>
+                            TO BE DONE 
+                        </p>
+                        <!-- <article>
+                            <div class="flex-row">
+                                <div class="flex-small example">1/2 small</div>
+                                <div class="flex-small example">1/2 small</div>
+                            </div>
+                            <div class="flex-row">
+                                <div class="flex-medium example">1/2 medium</div>
+                                <div class="flex-medium example">1/2 medium</div>
+                            </div>
+                            <div class="flex-row">
+                                <div class="flex-small example one-third">1/3</div>
+                                <div class="flex-small example">2/3</div>
+                            </div>
+                            <div class="flex-row">
+                                <div class="flex-small example one-fourth">1/4</div>
+                                <div class="flex-small example">3/4</div>
+                            </div> -->
+                            <!-- <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2520toast-show%2522%2520%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cstrong%253EarbiTary%253C%252Fstrong%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast-body%2522%253E%250A%2520%2520%2520%2520%2520%2520Hello%252C%2520world%21%2520This%2520is%2520a%2520toast%2520message.%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                style="width: 680px; height: 218px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe> -->
+                           
+                        </article>  
+                        
+                        
+                        
+                    </section>
+
+                    
+
+                    <section id="typography">
+                        <h1>Typography</h1>
+                        <p>
+                            Typography is used to present your design and content as clearly and efficiently as possible.
+                            
+                        </p>
+                       
+                        <article>
+                            <h3>Headings</h3>     
+                            <div class="bordered-div">
+                                <h1>Heading 1</h1>
+                                <h2>Heading 2</h2>
+                                <h3>Heading 3</h1>
+                                <h4>Heading 4</h4>
+                                <h5>Heading 5</h5> 
+                            </div>
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch1%253EHeading%25201%253C%252Fh1%253E%250A%253Ch2%253EHeading%25202%253C%252Fh2%253E%250A%253Ch3%253EHeading%25203%253C%252Fh1%253E%250A%253Ch4%253EHeading%25204%253C%252Fh4%253E%250A%253Ch5%253EHeading%25205%253C%252Fh5%253E%2520"
+                                style="width: 680px; height: 164px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                           
+                        </article>
+                        <article>
+                            <h3>Text Alignment</h3>
+                            <div class="bordered-div">
+                                <p class="text-left">left text</p>
+                                <p class="text-center">center text</p>
+                                <p class="text-right">right text</p>
+                            </div>
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522text-left%2522%253Eleft%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-center%2522%253Ecenter%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-right%2522%253Eright%2520text%253C%252Fp%253E"
+                                style="width: 680px; height: 128px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>                                
+                        </article>
+                        <!-- <article>
+                            <h3>Text Utilities</h3>
+                            <p>
+                                Button elements, links with a button class, and input elements should all render exactly the same.
+                            </p>
+                            <pre><code class="language-html">
+&lt;div class=&quot;text-mute&quot;&gt;dkovofjviofjdojfojvofd&lt;/div&gt;
+&lt;div class=&quot;text-sm&quot;&gt;dkovofjviofjdojfojvofd&lt;/div
+                            </code></pre>
+                            <div>
+                                    <div class="text-mute">
+                                        dkovofjviofjdojfojvofd
+                                       </div>
+                                       <div class="text-sm">
+                                        dkovofjviofjdojfojvofd
+                                       </div>
+                            </div>
+                        </article> -->
+                            
+                    </section>
+                    
+                   
+                   
+                    <section id="toast">
+                        <h1>Toasts</h1>
+                        <p>
+                            Toast is used for pushing notifications to your visitors as a lightweight and easily customizable alert message .
+                        </p>
+                        <article>
+                            <div>
+                                <div class="toast toast-show" >
+                                    <div class="toast-header">
+                                      <!-- <img src="" class="" alt=""> -->
+                                      <strong>arbiTary</strong>
+                                      <!-- <small>11 mins ago</small> -->
+                                      <!-- <button type="button" class="btn-close"></button> -->
+                                    </div>
+                                    <div class="toast-body">
+                                      Hello, world! This is a toast message.
+                                    </div>
+                                </div>
+                            </div>
+                           
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2520toast-show%2522%2520%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cstrong%253EarbiTary%253C%252Fstrong%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast-body%2522%253E%250A%2520%2520%2520%2520%2520%2520Hello%252C%2520world%21%2520This%2520is%2520a%2520toast%2520message.%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                style="width: 680px; height: 218px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                           
+                        </article>  
+                        
+                        
+                        
+                    </section>
+                   
+                    
+                   
+
+                   
+                </div>
+
+            </main>
+        </div>
+
+    </section>
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <script src="js/prism.js"></script> -->
+    <script src="./main.js"></script>
+</body>
+</html>
